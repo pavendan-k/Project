@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+:root{
+   --dark-primary: #1b1f24;
+   --primary:#12bdff;
+}
+ 
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+
+body{
+
+    font-family: "Nunito Sans", sans-serif;
+}
+
+header{
+    background-color: #1b1f24;
+    padding: 10px 20px 30px 40px;
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-decoration: none;
+
+}
+
+header button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+}
+.download-btn{
+
+    text-decoration: none;
+}
+
+Header button:hover{
+cursor:pointer;
+background-color: var(--primary);
+color: antiquewhite;
+}
+
+/* section hero homepage */
+section.hero-section{
+  background-color: var(--dark-primary);
+  color: whitesmoke;
+  display:flex;
+  align-items: center;
+  padding: 20px 120px 0 200px;
+}
+
+.Hero-section--title{
+  font-size: 40px;
+  font-weight: 900;
+
+}
+.hero-section--desc{
+   color: grey;
+   
+
+}
+
+.social-icon{
+     padding:10px 20px 10px 10px;
+
+}
+.button{
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: var(--dark-primary);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    border-radius: 5px;
+
+}
+.about-section{
+    background-color: #22282f;
+    color: antiquewhite;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section img{
+    border-radius: 10px;
+    border: 2px solid var(--primary);
+
+}
+
+.about-section-desc {
+    margin-left: 100px ;
+    max-width: 450px;
+
+}
+.about-section-desc h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-section-desc ul{
+   text-decoration: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+.about-section-desc li{
+   
+    margin-bottom: 10px;
+    color: gray;
+    text-decoration: none;
+
+}
+.work-section{
+
+background-color: var(--dark-primary);
+color: antiquewhite;
+padding: 60px;
+text-align: center;
+text-decoration: none;
+
+}
+
+.work-section-box{
+  background-color: #22282f;
+  padding: 60px;
+  max-width: 300px;
+  color:beige;
+  text-decoration: none;
+  text-align: left;
+  border-radius: 10px;
+  margin-right: 40px;
+
+}
+.work-section-box:hover{
+    background-color: #1b1f24;
+    border: 1px solid #fff;
+
+
+}
+
+.work-section-box p{
+   color:gray;
+   font-size: 14px;
+   
+
+}  
+.work-section-items{
+    display: flex;
+    justify-content: center;
+
+
+}
+.contact {
+    background-color: #14171c;
+    padding: 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+.contact h4{
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+
+
+}
+.contact h4 span{
+    color: var(--primary);
+
+
+}
+ .contact form input{
+    padding: 5px 10px;
+    outline: none;
+    width: 550px;
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea{
+    max-width: 550px;
+    padding: 10px 20px ;
+    border: none;
+    background-color: #c4c4c4;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    
+}
+
+
+footer{
+   background-color:var(--dark-primary);
+   color: gray;
+   padding: 20px 0;
+   text-align: center;
+   font-size: 14px;
+}
+
+footer a {
+   text-decoration: none;
+}
